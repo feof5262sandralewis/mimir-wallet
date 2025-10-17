@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.0.0](https://github.com/feof5262sandralewis/mimir-wallet/compare/ui-v2.32.0...ui-v3.0.0) (2025-10-17)
+
+
+### Features
+
+* add ai assistant for mimir ([#319](https://github.com/feof5262sandralewis/mimir-wallet/issues/319)) ([046abfe](https://github.com/feof5262sandralewis/mimir-wallet/commit/046abfe6fb4159ba85c8934ca4c86b1c6e328433))
+* Add cross-chain calldata display component ([#291](https://github.com/feof5262sandralewis/mimir-wallet/issues/291)) ([7c66f73](https://github.com/feof5262sandralewis/mimir-wallet/commit/7c66f73c32e5a5f81bed397e6f656db55f0c1ec1))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/feof5262sandralewis/mimir-wallet/issues/285)) ([f2d3642](https://github.com/feof5262sandralewis/mimir-wallet/commit/f2d364202521e57f75713e50a7da288cdb624c32))
+* Add dry run API support for transaction simulation ([#207](https://github.com/feof5262sandralewis/mimir-wallet/issues/207)) ([6be92a4](https://github.com/feof5262sandralewis/mimir-wallet/commit/6be92a43c49237ec8ed3d46d51ff9b62809e5e72))
+* add global account search and refactor UI components ([#167](https://github.com/feof5262sandralewis/mimir-wallet/issues/167)) ([d315792](https://github.com/feof5262sandralewis/mimir-wallet/commit/d31579201bb3c40c2c2591deb4572f63932517c9))
+* Add notification center feature ([#282](https://github.com/feof5262sandralewis/mimir-wallet/issues/282)) ([f2024b4](https://github.com/feof5262sandralewis/mimir-wallet/commit/f2024b4ebe825b2cbd885e5da24b6323556c31c1))
+* add permission check when submit transaction ([#164](https://github.com/feof5262sandralewis/mimir-wallet/issues/164)) ([7697e58](https://github.com/feof5262sandralewis/mimir-wallet/commit/7697e58a53b6bc02c9d034c53edea4d2e715b55f))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/feof5262sandralewis/mimir-wallet/issues/171)) ([c02c0cc](https://github.com/feof5262sandralewis/mimir-wallet/commit/c02c0cc854ea251b2db1a7aae4b0852cc58f81ff))
+* Add sonner to replace react-toastify ([#280](https://github.com/feof5262sandralewis/mimir-wallet/issues/280)) ([2f8dfa6](https://github.com/feof5262sandralewis/mimir-wallet/commit/2f8dfa6c7b55a25114670543cd53ceed155177df))
+* add template detail view functionality ([#174](https://github.com/feof5262sandralewis/mimir-wallet/issues/174)) ([b5d1ad9](https://github.com/feof5262sandralewis/mimir-wallet/commit/b5d1ad9558e9a4f2fa7b2b69e8684e9f2031c98a))
+* Add zkVerify testnet supported ([#251](https://github.com/feof5262sandralewis/mimir-wallet/issues/251)) ([cc943c0](https://github.com/feof5262sandralewis/mimir-wallet/commit/cc943c05f8df75eb96802c2dbc99069c3aef05f5))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/feof5262sandralewis/mimir-wallet/issues/215)) ([348b4a3](https://github.com/feof5262sandralewis/mimir-wallet/commit/348b4a3a7b76ba709d9cec41fdbc74b8636f5454))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/feof5262sandralewis/mimir-wallet/issues/254)) ([e4ab162](https://github.com/feof5262sandralewis/mimir-wallet/commit/e4ab1628150bf4b900c7caa3f86141ad56e33fa4))
+* implement AssetHub migration support ([#259](https://github.com/feof5262sandralewis/mimir-wallet/issues/259)) ([f4957d6](https://github.com/feof5262sandralewis/mimir-wallet/commit/f4957d67f9afe595b83e97c45ec94a22c182fbac))
+* Improve UI display and user experience ([#218](https://github.com/feof5262sandralewis/mimir-wallet/issues/218)) ([728e46c](https://github.com/feof5262sandralewis/mimir-wallet/commit/728e46c4bcd2dbb76368bd6e925d57e4d48e3eaa))
+* migrate some ui components to shadcn ([#278](https://github.com/feof5262sandralewis/mimir-wallet/issues/278)) ([df11c10](https://github.com/feof5262sandralewis/mimir-wallet/commit/df11c1006a3e4edcb07de0fb8f6b368be868a17e))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/feof5262sandralewis/mimir-wallet/issues/270)) ([468be1e](https://github.com/feof5262sandralewis/mimir-wallet/commit/468be1ece0bfd19e8293fe6426d0864ecede274c))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/feof5262sandralewis/mimir-wallet/issues/293)) ([26e8c5c](https://github.com/feof5262sandralewis/mimir-wallet/commit/26e8c5c3cf15fded472efb14cbd7649b0671fbcd))
+* remove assethub next westend network ([#232](https://github.com/feof5262sandralewis/mimir-wallet/issues/232)) ([28922f1](https://github.com/feof5262sandralewis/mimir-wallet/commit/28922f10a7cad497219b58c7a51a5f69f73184d5))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/feof5262sandralewis/mimir-wallet/issues/162)) ([9b4d5be](https://github.com/feof5262sandralewis/mimir-wallet/commit/9b4d5be0c89235b104dd814b3dead646a76dcf60))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/feof5262sandralewis/mimir-wallet/issues/261)) ([1b4783b](https://github.com/feof5262sandralewis/mimir-wallet/commit/1b4783bc13fb8683004d9b1ae421f2d8cc845d73))
+
+
+### Bug Fixes
+
+* fix some ui issues ([def6055](https://github.com/feof5262sandralewis/mimir-wallet/commit/def6055001d12293c7511cd361c00067d03d4f96))
+* Fix some UI issues ([#257](https://github.com/feof5262sandralewis/mimir-wallet/issues/257)) ([a45dd08](https://github.com/feof5262sandralewis/mimir-wallet/commit/a45dd086b1998b334ca1db536b2b0ecfaa031520))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/feof5262sandralewis/mimir-wallet/issues/165)) ([42d2d56](https://github.com/feof5262sandralewis/mimir-wallet/commit/42d2d5611027f881364ecb61c4256943740e27ef))
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/ui-v2.31.0...ui-v2.32.0) (2025-10-14)
 
 

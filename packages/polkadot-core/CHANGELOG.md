@@ -1,5 +1,54 @@
 # Changelog
 
+## [3.0.0](https://github.com/feof5262sandralewis/mimir-wallet/compare/polkadot-core-v2.32.0...polkadot-core-v3.0.0) (2025-10-17)
+
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/feof5262sandralewis/mimir-wallet/issues/323)) ([e8c91c3](https://github.com/feof5262sandralewis/mimir-wallet/commit/e8c91c3326446f48b9b3c803c5b1a2d168c1f62c))
+* Add astar network support ([#230](https://github.com/feof5262sandralewis/mimir-wallet/issues/230)) ([ae01710](https://github.com/feof5262sandralewis/mimir-wallet/commit/ae0171058bdf95bd55038b0ab2fa7f4cb0d26439))
+* Add cross-chain calldata display component ([#291](https://github.com/feof5262sandralewis/mimir-wallet/issues/291)) ([7c66f73](https://github.com/feof5262sandralewis/mimir-wallet/commit/7c66f73c32e5a5f81bed397e6f656db55f0c1ec1))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/feof5262sandralewis/mimir-wallet/issues/285)) ([f2d3642](https://github.com/feof5262sandralewis/mimir-wallet/commit/f2d364202521e57f75713e50a7da288cdb624c32))
+* Add dry run API support for transaction simulation ([#207](https://github.com/feof5262sandralewis/mimir-wallet/issues/207)) ([6be92a4](https://github.com/feof5262sandralewis/mimir-wallet/commit/6be92a43c49237ec8ed3d46d51ff9b62809e5e72))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/feof5262sandralewis/mimir-wallet/issues/309)) ([c759ee3](https://github.com/feof5262sandralewis/mimir-wallet/commit/c759ee34bd9e2e121ccf8c02bac8a3ea4773419d))
+* Add moonbeam and tanssi network support ([#327](https://github.com/feof5262sandralewis/mimir-wallet/issues/327)) ([e17fc67](https://github.com/feof5262sandralewis/mimir-wallet/commit/e17fc67dfd8e45338b345babb107380a5a5a1dea))
+* Add notification center feature ([#282](https://github.com/feof5262sandralewis/mimir-wallet/issues/282)) ([f2024b4](https://github.com/feof5262sandralewis/mimir-wallet/commit/f2024b4ebe825b2cbd885e5da24b6323556c31c1))
+* Add PAssetHub network support ([#239](https://github.com/feof5262sandralewis/mimir-wallet/issues/239)) ([a0c37b7](https://github.com/feof5262sandralewis/mimir-wallet/commit/a0c37b795bf6d643942c6e209629d2018dd53c24))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/feof5262sandralewis/mimir-wallet/issues/321)) ([55c5327](https://github.com/feof5262sandralewis/mimir-wallet/commit/55c53271e14b5a938b4884b10b9f83d49e406bc5))
+* Add remote proxy support ([#236](https://github.com/feof5262sandralewis/mimir-wallet/issues/236)) ([a3ad148](https://github.com/feof5262sandralewis/mimir-wallet/commit/a3ad148af3f547e8f577c5a363bcf1c50a7b7336))
+* Add walletconnect in dapp page ([#217](https://github.com/feof5262sandralewis/mimir-wallet/issues/217)) ([2dbc88f](https://github.com/feof5262sandralewis/mimir-wallet/commit/2dbc88f940482f912579476abbaed4d2f6380180))
+* Add xcavate network support ([#237](https://github.com/feof5262sandralewis/mimir-wallet/issues/237)) ([4275855](https://github.com/feof5262sandralewis/mimir-wallet/commit/4275855508fa9640014f1edd191efcaa8aa3e37d))
+* Add zkverify mainnet support ([#312](https://github.com/feof5262sandralewis/mimir-wallet/issues/312)) ([39ea52a](https://github.com/feof5262sandralewis/mimir-wallet/commit/39ea52a03e5c1f974b202faddd5ad31ddeac8ee9))
+* Add zkVerify testnet supported ([#251](https://github.com/feof5262sandralewis/mimir-wallet/issues/251)) ([cc943c0](https://github.com/feof5262sandralewis/mimir-wallet/commit/cc943c05f8df75eb96802c2dbc99069c3aef05f5))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/feof5262sandralewis/mimir-wallet/issues/254)) ([e4ab162](https://github.com/feof5262sandralewis/mimir-wallet/commit/e4ab1628150bf4b900c7caa3f86141ad56e33fa4))
+* Improve UI display and user experience ([#218](https://github.com/feof5262sandralewis/mimir-wallet/issues/218)) ([728e46c](https://github.com/feof5262sandralewis/mimir-wallet/commit/728e46c4bcd2dbb76368bd6e925d57e4d48e3eaa))
+* Optimize balance retrieval logic ([#311](https://github.com/feof5262sandralewis/mimir-wallet/issues/311)) ([222e17e](https://github.com/feof5262sandralewis/mimir-wallet/commit/222e17e3f6435de3a95df723a0f1793e0a070c1f))
+* optimize rpc connection and improve network stability ([#193](https://github.com/feof5262sandralewis/mimir-wallet/issues/193)) ([222b33f](https://github.com/feof5262sandralewis/mimir-wallet/commit/222b33f7851e8a9c06b79717cfff596d27b19ede))
+* remove assethub next westend network ([#232](https://github.com/feof5262sandralewis/mimir-wallet/issues/232)) ([28922f1](https://github.com/feof5262sandralewis/mimir-wallet/commit/28922f10a7cad497219b58c7a51a5f69f73184d5))
+* subscribe wallet accounts changed ([#176](https://github.com/feof5262sandralewis/mimir-wallet/issues/176)) ([9326db2](https://github.com/feof5262sandralewis/mimir-wallet/commit/9326db2fb161be46de4ddb54cf543b39418407b9))
+* Support eth address transfer on westend ([#234](https://github.com/feof5262sandralewis/mimir-wallet/issues/234)) ([63fd959](https://github.com/feof5262sandralewis/mimir-wallet/commit/63fd9590fcad5cc7f7448c404c21f50fa2fc038d))
+* support eth address trasfer on westend assethub ([#224](https://github.com/feof5262sandralewis/mimir-wallet/issues/224)) ([1d5e76d](https://github.com/feof5262sandralewis/mimir-wallet/commit/1d5e76de18840895724d675fc66f900c63766bfd))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/feof5262sandralewis/mimir-wallet/issues/261)) ([1b4783b](https://github.com/feof5262sandralewis/mimir-wallet/commit/1b4783bc13fb8683004d9b1ae421f2d8cc845d73))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/feof5262sandralewis/mimir-wallet/issues/268)) ([0751637](https://github.com/feof5262sandralewis/mimir-wallet/commit/0751637f39e429e4568c49ef2470d51c6bcf6b0e))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/feof5262sandralewis/mimir-wallet/issues/267)) ([33df9f2](https://github.com/feof5262sandralewis/mimir-wallet/commit/33df9f28959b9c2603b761beffdd7a660432a270))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/feof5262sandralewis/mimir-wallet/issues/247)) ([e2eb00d](https://github.com/feof5262sandralewis/mimir-wallet/commit/e2eb00d0c6a1eedf9a99f4633eb2e60f8171a0c1))
+
+
+### Bug Fixes
+
+* fix nexu hash calculation in polkadot-core tx module ([#178](https://github.com/feof5262sandralewis/mimir-wallet/issues/178)) ([8cb9733](https://github.com/feof5262sandralewis/mimir-wallet/commit/8cb9733c13f93a3999116f11afa6e56d7041edf2))
+* Fix some issues while connect wallet ([#220](https://github.com/feof5262sandralewis/mimir-wallet/issues/220)) ([287989f](https://github.com/feof5262sandralewis/mimir-wallet/commit/287989fabfce9ac32c3579e93171821bb31ab607))
+* improve user experience and fix bugs ([#222](https://github.com/feof5262sandralewis/mimir-wallet/issues/222)) ([2e7e83f](https://github.com/feof5262sandralewis/mimir-wallet/commit/2e7e83fd3356fb2400991b1597a18a3d58d33efc))
+* optimize balance fetching performance ([#228](https://github.com/feof5262sandralewis/mimir-wallet/issues/228)) ([865457d](https://github.com/feof5262sandralewis/mimir-wallet/commit/865457deeb1dc829cc56f80521556085cd46344a))
+* optimize user experience and fix some bugs ([#226](https://github.com/feof5262sandralewis/mimir-wallet/issues/226)) ([8a0dae3](https://github.com/feof5262sandralewis/mimir-wallet/commit/8a0dae3b899b68d24531fedc89fe1a8b19006ab5))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @mimir-wallet/service bumped to 3.0.0
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/polkadot-core-v2.31.0...polkadot-core-v2.32.0) (2025-10-14)
 
 
